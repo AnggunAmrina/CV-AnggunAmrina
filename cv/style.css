@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Nunito:wght@400;600&display=swap');
+
+body {
+    padding-top: 5rem;
+    font-family: 'Nunito', sans-serif;
+    background-color: #fff5f7; /* Fallback color */
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/watercolor.png'); /* Floral wallpaper */
+    background-repeat: repeat;
+    color: #555;
+}
+
+:root {
+    --soft-pink-accent: #ff80ab;
+    --darker-pink-hover: #f06292;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+    font-family: 'Playfair Display', serif;
+    color: var(--soft-pink-accent);
+    font-weight: 700;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    border-bottom: 1px solid #ffe4e1;
+    padding: 0.75rem 0;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: var(--soft-pink-accent) !important;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+    color: var(--darker-pink-hover) !important;
+}
+
+.card {
+    border: 1px solid #ffe4e1;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(255, 128, 171, 0.15);
+    background-color: #ffffff;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--soft-pink-accent);
+    display: inline-block;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.list-group-item {
+    background-color: #ffffff;
+    border-color: #fff5f7;
+    padding: 0.75rem 0;
+}
+
+footer {
+    background-color: var(--soft-pink-accent) !important;
+    color: white;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+
+a {
+    color: var(--darker-pink-hover);
+}
+
+a:hover {
+    color: var(--soft-pink-accent);
+}
